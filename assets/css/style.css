@@ -649,13 +649,3 @@ a.icon-up-bg:hover {color: #3cc69a;}
     font-size: 25px;
 }
 
-.icon-up-f:hover,
-
-.icon-up-f:hover i {
-    transform: scale(1.5);
-    transition: transform 0.4s ease-in-out;
-}
-.icon-up-f:not(:hover) i {
-    transform: scale(1);
-    transition: transform 0.4s ease-in-out;
-  }
