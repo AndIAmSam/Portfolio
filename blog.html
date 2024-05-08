@@ -117,10 +117,125 @@
                 </div>
             </div>
         </section><!-- /.section-about -->
+        <div style="text-align: center; width: 100%;">
 
-        
+          <button id="btnSection1" style="background-color: #161622; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: background-color 0.3s, transform 0.3s;">Ver la última entrada</button>
+          <button id="btnSection2" style="background-color: #161622; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: background-color 0.3s, transform 0.3s;">Ver la entrada anterior</button>
+        </div>
 
-        <section id="service" class="site-section section-services overlay text-left">
+                <section id="service" class="site-section section-services overlay text-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>El Impacto de la Computación Cuántica en la Criptografía y la Seguridad Informática</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines" style="filter: brightness(0) invert(1);">
+                      </div>
+                      <div class="col-sm-12">
+                        <div class="service text-center">
+                          <img src="assets/img/qubit.jpg" alt="Certificado" style="width: 70%; height: 30%; border-radius: 10px; margin-bottom: 50px;">
+                          <p style="margin-bottom: 20px; text-align: right; font-style: italic;">Publicado el 08/05/2024 | Por Samuel Flores García</p>
+                            <p style="line-height: 2; font-size: 20px;">
+                              La era digital actual se encuentra en constante evolución, marcada significativamente por avances en computación cuántica. Este emergente campo promete revolucionar múltiples sectores, incluyendo la criptografía y la seguridad informática. La computación cuántica utiliza principios de la mecánica cuántica para procesar información de manera exponencialmente más rápida que los computadores clásicos en ciertas tareas. Este artículo investiga cómo la computación cuántica podría alterar los paradigmas de la criptografía, evaluando tanto los potenciales riesgos como las oportunidades que presenta.
+                            </p>
+                            <hr style="width: 40%;">
+                            <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Fundamentos de la Computación Cuántica</h4>
+                            <img src="assets/img/quantumC.png" alt="Certificado" style="width: 70%; height: 30%; border-radius: 10px; margin-bottom: 20px; margin-top: 20px; margin-left: 20px; float: right;">
+                            <p style="line-height: 2; font-size: 20px;">
+                              Antes de explorar su impacto en la criptografía, es esencial comprender los principios básicos de la computación cuántica. A diferencia de los bits clásicos, que operan bajo estados definidos de 0 o 1, los qubits cuánticos pueden existir simultáneamente en múltiples estados gracias al entrelazamiento y la superposición. Este comportamiento permite a las computadoras cuánticas realizar múltiples cálculos a la vez, ofreciendo un potencial de procesamiento masivamente paralelo.
+                            </p>
+
+
+                            <hr style="width: 20%;">
+                            <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Criptografía Clásica y Seguridad</h4>
+                            <p style="line-height: 2; font-size: 20px;">
+                              La criptografía clásica se basa en la premisa de la complejidad computacional. Algoritmos como RSA, ECC (Elliptic Curve Cryptography) y DSA (Digital Signature Algorithm) dependen de la dificultad de problemas matemáticos específicos, como la factorización de números grandes o los logaritmos discretos, que son manejables para las computadoras actuales.
+                             </p> 
+                            <h4 style="text-align: left; font-size: 25px; margin-top: 5vh; color: #fff">Algoritmos comúnes y sus Bases Matemáticas</h4>
+                            <ul style="line-height: 2; font-size: 20px; text-align: left;">
+                              <li><strong>RSA (Rivest-Shamir-Adleman): </strong>Basado en la dificultad de factorizar números grandes compuestos por dos primos grandes.</li>
+                              <li><strong>ECC (Criptografía de Curva Elíptica): </strong>Utiliza las propiedades de las curvas elípticas sobre campos finitos, y se basa en la dificultad del problema del logaritmo discreto en estas curvas.</li>
+                              <li><strong>DSA (Algoritmo de Firma Digital): </strong> También basado en el problema del logaritmo discreto, pero aplicado a grupos finitos conocidos.</li>
+                            </ul>
+                            </p>
+                            <hr style="width: 20%;">
+                            <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Desafíos Introducidos a la Criptografía por la Computación Cuántica</h4>
+                            <img src="assets/img/key.jpeg" alt="Certificado" style="width: 70%; height: 30%; border-radius: 10px; margin-bottom: 20px; margin-top: 20px; margin-left: 20px; float: right;">
+                            <p style="line-height: 2; font-size: 20px;">
+
+                            </p>
+                              <h4 style="text-align: left; font-size: 25px; margin-top: 5vh; color: #fff"></h4>
+                              <ul style="line-height: 2; font-size: 20px; text-align: left;">
+                                <li><strong>Descomposición de la Criptografía Clásica:</strong> Las computadoras cuánticas tienen el potencial de resolver problemas matemáticos que forman la base de muchos algoritmos criptográficos actuales, amenazando incluso a la criptografía simétrica al reducir la efectividad del tamaño de clave.</li>
+                                <li><strong>Escalado de Computadoras Cuánticas:</strong> Aunque no existen aún computadoras cuánticas capaces de desafiar la criptografía clásica a gran escala, los avances tecnológicos sugieren que tal capacidad es inminente, necesitando evaluación y preparación continua.</li>
+                                <li><strong>Implicaciones para la Seguridad de Datos:</strong> La computación cuántica podría permitir nuevos tipos de ataques cuánticos, afectando protocolos de seguridad, sistemas de autenticación y métodos de encriptación actuales.</li>
+                                <li><strong>Desarrollo de la Criptografía Post-Cuántica:</strong> La emergencia de la criptografía post-cuántica busca desarrollar algoritmos que resistan ataques cuánticos, garantizando la seguridad en la futura era cuántica.</li>
+                                <li><strong>Impacto Socioeconómico Amplio:</strong> Los impactos de la computación cuántica en la criptografía extienden más allá de la seguridad de datos, afectando la seguridad nacional, infraestructuras críticas y la confianza en sistemas económicos.</li>
+                            </ul>
+
+                            <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Oportunidades y Avances en Criptografía Cuántica</h4>
+                              <p style="line-height: 2; font-size: 20px;">
+                                Aunque la computación cuántica presenta desafíos significativos para la criptografía convencional, también abre caminos hacia métodos de encriptación seguros basados en principios cuánticos, resistentes a ataques tanto cuánticos como clásicos.
+                              </p>
+                              <h4 style="text-align: left; font-size: 25px; margin-top: 5vh; color: #fff">Distribución Cuántica de Claves (QKD) y Más</h4>
+                              <ul style="line-height: 2; font-size: 20px; text-align: left;">
+                                <li><strong>Distribución Cuántica de Claves (QKD):</strong> Utiliza el principio de que la medición afecta el estado cuántico de los fotones, permitiendo detectar intervenciones y asegurando la privacidad de las claves compartidas.</li>
+                                <li><strong>Iniciativas Comerciales y Académicas:</strong> Empresas como ID Quantique y gigantes tecnológicos como IBM y Google están implementando la criptografía cuántica, respaldados por investigaciones académicas avanzadas.</li>
+                                <li><strong>Desafíos y Proyecciones Futuras:</strong> Los retos incluyen la necesidad de infraestructura especial y limitaciones en la distancia de transmisión, aunque se espera que los avances tecnológicos superen estas barreras.</li>
+                              </ul>
+                              <p style="line-height: 2; font-size: 20px;">
+                                La criptografía cuántica establece un nuevo estándar en seguridad de datos, transformando las estrategias de seguridad para la futura era digital.
+                              </p>
+
+                              <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Preparación para la Era Post-Cuántica: Criptografía Post-Cuántica y el Futuro de la Seguridad Informática</h4>
+<p style="line-height: 2; font-size: 20px;">
+    La inminente llegada de computadoras cuánticas eficaces y poderosas demanda una revisión de las estrategias de seguridad cibernética actuales, especialmente en el ámbito de la criptografía. La llamada era post-cuántica alude a un período futuro en el cual las computadoras cuánticas serán lo suficientemente potentes como para romper muchos de los algoritmos criptográficos utilizados hoy en día. En respuesta a esta amenaza, se ha desarrollado el campo de la criptografía post-cuántica, que busca diseñar sistemas criptográficos capaces de resistir los ataques de computadoras cuánticas.
+</p>
+<h4 style="text-align: left; font-size: 25px; margin-top: 5vh; color: #fff">Innovaciones en la Criptografía Post-Cuántica</h4>
+<ul style="line-height: 2; font-size: 20px; text-align: left;">
+    <li><strong>Criptografía basada en retículos:</strong> Utiliza problemas matemáticos derivados de estructuras geométricas llamadas retículos, que se han demostrado resistentes a los algoritmos de computación cuántica conocidos hasta la fecha.</li>
+    <li><strong>Códigos de corrección de errores cuánticos:</strong> La teoría de códigos, crucial en la corrección de errores en la transmisión de datos, también puede contribuir a la seguridad criptográfica en la era cuántica.</li>
+    <li><strong>Criptografía basada en isogenias de curvas elípticas:</strong> Utiliza propiedades complejas de las curvas elípticas para formular problemas criptográficos que los algoritmos cuánticos actuales no pueden resolver eficientemente.</li>
+    <li><strong>Criptografía multivariante:</strong> Involucra sistemas de ecuaciones polinomiales que son fácilmente solubles en una dirección pero extremadamente difíciles de invertir sin una clave secreta.</li>
+</ul>
+<img src="assets/img/arc.jpg" alt="Certificado" style="width: 70%; height: 30%; border-radius: 10px; margin-bottom: 20px; margin-top: 20px; margin-left: 20px; float: none;">
+<p style="line-height: 2; font-size: 20px;">
+    Organizaciones como el National Institute of Standards and Technology (NIST) de los Estados Unidos juegan un papel crucial en la estandarización de los algoritmos de criptografía post-cuántica. Desde 2016, NIST ha estado evaluando propuestas de algoritmos que podrían servir como estándares internacionales para proteger la infraestructura informática contra futuros ataques cuánticos. Este proceso es vital para asegurar la compatibilidad y la seguridad a largo plazo en diversas aplicaciones, desde comunicaciones gubernamentales hasta transacciones financieras globales.
+</p>
+<p style="line-height: 2; font-size: 20px;">
+    La transición hacia la criptografía post-cuántica no está exenta de desafíos. Los algoritmos post-cuánticos tienden a requerir mayores recursos computacionales y más ancho de banda en comparación con los algoritmos tradicionales. Además, la adopción universal de estos nuevos algoritmos requiere una revisión exhaustiva de las infraestructuras tecnológicas existentes, lo cual implica significativos esfuerzos en términos de tiempo y coste económico.
+</p>
+<p style="line-height: 2; font-size: 20px;">
+    El desarrollo y la implementación de tecnologías post-cuánticas es una carrera contra el tiempo, considerando la velocidad del progreso en el campo de la computación cuántica. La colaboración entre académicos, la industria y los gobiernos será crucial para crear un ecosistema digital que pueda resistir las amenazas futuras y aprovechar las oportunidades que la nueva era tecnológica ofrecerá.
+</p>
+
+
+                            
+                            </p>
+                            <hr style="width: 20%;">
+                            <p style="line-height: 2; font-size: 20px; margin-top: 80px;">
+                              La computación cuántica plantea desafíos significativos pero también oportunidades innovadoras para la criptografía y la seguridad informática. Mientras que la posibilidad de romper muchos de los sistemas criptográficos actuales insta a una revisión y adaptación urgente, la misma tecnología ofrece nuevas metodologías para salvaguardar datos de manera más efectiva. La transición hacia la criptografía post-cuántica y el aprovechamiento de la criptografía cuántica son pasos críticos para prepararse para un futuro seguro en la era cuántica. La colaboración internacional y el desarrollo continuo de estándares serán esenciales para mitigar los riesgos y maximizar los beneficios de esta revolución tecnológica.
+                            </p>
+                            <hr style="margin-top: 10vh;">
+                            <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Referencias</h4>
+                            <p>
+                              <ul style="line-height: 2; font-size: 14px; text-align: left;">
+                                <li>¿En qué consiste la computación cuántica? - Explicación sobre la computación cuántica - AWS. (s. f.). Amazon Web Services, Inc. https://aws.amazon.com/es/what-is/quantum-computing/</li>
+                                <li>¿Qué es quantum computing? | IBM. (s. f.). https://www.ibm.com/mx-es/topics/quantum-computing</li>
+                                <li>¿Qué es la criptografía cuántica? | IBM. (s. f.). https://www.ibm.com/mx-es/topics/quantum-cryptography</li>
+                                <li>Fundación Innovación Bankinter. (2023, 4 octubre). El futuro de la ciberseguridad: Criptografía Post-Cuántica (PQC). https://www.fundacionbankinter.org/noticias/criptografia-post-cuantica/</li>
+                                <li>Criptografía cuántica | Revista .Seguridad. (s. f.). https://revista.seguridad.unam.mx/numero-18/criptograf%C3%AD-cu%C3%A1ntica</li>
+                              </ul>
+                            </p>
+                        </div><!-- /.service -->
+                    </div> 
+                </div>
+            </div>
+            <section id="portfolio" class="site-section section-portfolio">
+                
+            </section><!-- /.secton-portfolio -->
+        </section><!-- /.secton-services -->
+
+        <section id="service2" class="site-section section-services overlay text-left">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -233,6 +348,22 @@ La seguridad de la información en los títulos electrónicos se refuerza median
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+      const btnSection1 = document.getElementById('btnSection1');
+      const btnSection2 = document.getElementById('btnSection2');
+      const section1 = document.getElementById('service');
+      const section2 = document.getElementById('service2');
+
+      btnSection1.addEventListener('click', function() {
+          section1.classList.remove('hidden');
+          section2.classList.add('hidden');
+      });
+
+      btnSection2.addEventListener('click', function() {
+          section2.classList.remove('hidden');
+          section1.classList.add('hidden');
+      });
+  </script>
   
 </body>
 </html>
