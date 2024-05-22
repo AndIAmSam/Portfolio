@@ -117,13 +117,19 @@
                 </div>
             </div>
         </section><!-- /.section-about -->
-        <div style="text-align: center; width: 100%;">
+        <div style="text-align: center; width: 100%; margin-bottom: 40px;">
 
-          <button id="btnSection1" style="background-color: #161622; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: background-color 0.3s, transform 0.3s;">Ver la última entrada</button>
-          <button id="btnSection2" style="background-color: #161622; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: background-color 0.3s, transform 0.3s;">Ver la entrada anterior</button>
+          <h1 style="color: white">Últimas entradas</h1>
+
+          <button id="btnSection3" style="background-color: #161622; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: background-color 0.3s, transform 0.3s;">Esteganografía<br>
+            <span style="font-size: 14px; color: #818181">22 de mayo de 2024</span></button>
+          <button id="btnSection1" style="background-color: #161622; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: background-color 0.3s, transform 0.3s;">Computación Cuántica y Criptografía<br>
+            <span style="font-size: 14px; color: #818181">8 de mayo de 2024</span></button>
+          <button id="btnSection2" style="background-color: #161622; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: background-color 0.3s, transform 0.3s;">Certificados Electrónicos<br>
+            <span style="font-size: 14px; color: #818181">4 de marzo de 2024</span></button>
         </div>
 
-                <section id="service" class="site-section section-services overlay text-left">
+                <section id="service" class="hidden site-section section-services overlay text-left">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -313,6 +319,124 @@ La seguridad de la información en los títulos electrónicos se refuerza median
                 
             </section><!-- /.secton-portfolio -->
         </section><!-- /.secton-services -->
+
+        <section id="service3" class="site-section section-services overlay text-left">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <h3>Esteganografía. ¿Cómo ocultar mensajes en archivos?</h3>
+                      <img src="assets/img/lines.svg" class="img-lines" alt="lines" style="filter: brightness(0) invert(1);">
+                  </div>
+                  <div class="col-sm-12">
+                      <div class="service text-center">
+                          <img src="assets/img/steganography.webp" alt="Esteganografía" style="width: 70%; height: 30%; border-radius: 10px; margin-bottom: 50px;">
+                          <p style="margin-bottom: 20px; text-align: right; font-style: italic;">Publicado el 22/05/2024 | Por Samuel Flores García</p>
+                          <p style="line-height: 2; font-size: 20px;">
+                              La esteganografía es una técnica de ocultamiento de información dentro de un archivo multimedia de tal manera que no sea evidente su existencia para observadores casuales. A diferencia de la criptografía, que protege el contenido de un mensaje mediante la codificación, la esteganografía oculta la existencia del mensaje en sí. Esta técnica se utiliza en diversos campos, desde la protección de la propiedad intelectual hasta la comunicación segura y la prevención de fraudes.
+                          </p>
+                          <hr style="width: 40%;">
+                          <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Objetivos de esta Prueba</h4>
+                          <p style="line-height: 2; font-size: 20px;">
+                              En este caso, utilizaremos la distribución Kali Linux, conocida por su amplia gama de herramientas de seguridad y análisis forense, para realizar un ejercicio de ocultamiento de información mediante esteganografía. Al finalizar esta práctica, habrás adquirido conocimientos sobre:
+                          </p>
+                          <ul style="line-height: 2; font-size: 20px; text-align: left;">
+                              <li>Conceptos básicos de la esteganografía.</li>
+                              <li>Uso de herramientas específicas para la esteganografía en Kali Linux.</li>
+                              <li>Proceso de ocultamiento y recuperación de información dentro de archivos multimedia.</li>
+                          </ul>
+                          <hr style="width: 40%;">
+                          <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Herramientas Necesarias</h4>
+                          <p style="line-height: 2; font-size: 20px;">
+                              Para llevar a cabo esta práctica, emplearemos las siguientes herramientas disponibles en Kali Linux:
+                          </p>
+                          <ul style="line-height: 2; font-size: 20px; text-align: left;">
+                              <li><strong>Steghide:</strong> Una herramienta de esteganografía que permite ocultar datos dentro de archivos de imágenes y audio.</li>
+                          </ul>
+                          <hr style="width: 40%;">
+                          <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Procedimiento</h4>
+                          <p style="line-height: 2; font-size: 20px; margin-bottom: 20px;">
+                              <strong>Paso 1: Instalación de Herramientas</strong><br>
+                              <hr style="width: 0%; margin-bottom: 50px;">
+                              Aunque Kali Linux ya incluye varias herramientas de esteganografía, en este caso usaremos Steghide:
+                          </p>
+                          <div style="text-align: center; margin-top: 20px;">
+                            <pre style="background-color: #000; color: #f8f8f2; padding: 15px; border-radius: 5px; display: inline-block; text-align: center; white-space: pre-wrap;">
+    sudo apt-get update
+    sudo apt-get install steghide
+                            </pre>
+                        </div>
+                        <hr style="width: 50%; margin-top: 50px;">
+                          <p style="line-height: 2; font-size: 22px;">
+                              <strong>Paso 2: Ocultamiento de Información</strong><br>
+                              <hr style="width: 0%; margin-bottom: 50px;">
+                              1. <strong>Selecciona el archivo portador:</strong> Elige una imagen (PNG, JPEG, BMP, etc) que actuará como el contenedor para tu información oculta.<br>
+                              2. <strong>Prepara el mensaje a ocultar:</strong> Crea un archivo de texto con la información que deseas ocultar.<br>
+                              <img src="assets/img/4.png" alt="Ocultamiento de Información" style="width: 70%; height: auto; border-radius: 10px; margin-top: 20px;"><br>
+                              <hr style="width: 1%; margin-top: 50px;">
+                              3. <strong>Ejecuta el siguiente comando:</strong><br>
+                              <hr style="width: 0%; margin-bottom: 10px;">
+                          </p>
+                          <p style="line-height: 2; font-size: 15px;">
+                            Tendrás una salida como esta:
+                        </p>
+                          <div style="text-align: center;">
+                            <pre style="background-color: #000; color: #f8f8f2; padding: 15px; border-radius: 5px; display: inline-block; text-align: left; white-space: pre-wrap;">
+    steghide embed -cf imagen_portador.jpg -ef mensaje_oculto.txt
+                            </pre>
+                            <img src="assets/img/4.png" alt="Ocultamiento de Información" style="width: 70%; height: auto; border-radius: 10px; margin-top: 20px;">
+                        </div>
+                          <p style="line-height: 2; font-size: 16px;">
+                              Durante el proceso, se te pedirá que establezcas una contraseña para proteger el mensaje oculto.
+                          </p>
+                          <hr style="width: 50%; margin-top: 50px;">
+                          <p style="line-height: 2; font-size: 20px;">
+                              <strong>Paso 3: Recuperación de la Información</strong><br>
+                              <hr style="width: 0%; margin-bottom: 50px;">
+                              Para extraer la información oculta, utilizaremos nuevamente Steghide.
+                          </p>
+                          <p style="font-style: italic; margin-top: 10px;">
+                            Antes de continuar, crearemo una carpeta y copiaremos y pegaremos la imagen con el mensaje oculto, eso sólo para que se pueda ver claramente la obtención del mensaje oculto.
+                          </p>
+                          <img src="assets/img/6.png" alt="Ocultamiento de Información" style="width: 70%; height: auto; border-radius: 10px; margin-top: 20px;"><br>
+                          <hr style="width: 1%; margin-top: 50px;">
+                          <img src="assets/img/7.png" alt="Ocultamiento de Información" style="width: 70%; height: auto; border-radius: 10px; margin-top: 20px;"><br>
+                          <hr style="width: 1%; margin-top: 50px;">
+                          <strong>Una vez realizado lo anterior, ejecuta el siguiente comando:</strong>
+                          <div style="text-align: center; margin-top: 10px;">
+                            <pre style="background-color: #000; color: #f8f8f2; padding: 15px; border-radius: 5px; display: inline-block; text-align: left; white-space: pre-wrap;">
+    steghide extract -sf imagen_portador.jpg
+                            </pre>
+                        </div>
+                          <p style="line-height: 2; font-size: 18px;">
+                              Ingresa la contraseña que utilizaste al ocultar el mensaje para recuperar el archivo oculto. Deberías tener algo como esto:
+                          </p>
+                          <img src="assets/img/5.png" alt="Ocultamiento de Información" style="width: 70%; height: auto; border-radius: 10px; margin-top: 20px;"><br>
+                          <p style="line-height: 2; font-size: 20px; margin-top: 30px;">
+                            <strong>¡Y listo! Así se sencillo es.</strong><br>
+                        </p>
+                          <hr style="width: 40%;">
+                          <p style="line-height: 2; font-size: 20px; margin-top: 80px;">
+                              En conclusión, la esteganografía es una poderosa técnica para ocultar información en archivos multimedia, proporcionando una capa adicional de seguridad en la comunicación de datos sensibles. A través de esta prueba, se hizo uso de herramientas específicas en Kali Linux para implementar y recuperar información oculta, ampliando tus habilidades en ciberseguridad y técnicas de protección de datos. 
+                          </p>
+                          <strong style="font-size: 20px;">
+                            ¡Gracias por llegar hasta aquí y ver este contenido!
+                          </strong>
+                          <hr style="margin-top: 10vh;">
+                    <h4 style="text-align: left; font-size: 30px; margin-top: 10vh;">Referencias</h4>
+                    <ul style="line-height: 2; font-size: 14px; text-align: left;">
+                        <li>Blitz, J. M. (s/f). ¿Cómo ocultar un archivo dentro de otro? – Esteganografía. Ciberseguridad con Hack by Security. Recuperado el 22 de mayo de 2024, de https://www.hackbysecurity.com/blog/como-ocultar-un-archivo-dentro-de-otro-esteganografia-1</li>
+                        <li>Bustelo, G. (2023, marzo 6). Esteganografía: lo último en ciberdelincuencia. Red Seguridad. https://www.redseguridad.com/actualidad/esteganografia-lo-ultimo-en-ciberdelincuencia_20230306.html</li>
+                        <li>Kuksov, I. (2019, julio 3). ¿Qué es la esteganografía digital? Kaspersky. https://latam.kaspersky.com/blog/digital-steganography/14859/</li>
+                        <li>¿Para qué es útil la estenografía en la actualidad? (s/f). Com.tr. Recuperado el 22 de mayo de 2024, de https://www.aa.com.tr/es/mundo/-para-qu%C3%A9-es-%C3%BAtil-la-estenograf%C3%ADa-en-la-actualidad/1681226</li>
+                        <li>Santana, J. (2023, mayo 17). Ejercicio práctico esteganografía. DEV Community. https://dev.to/joshua_santana/ejercicio-practico-esteganografia-3mhb</li>
+                    </ul>
+                      </div><!-- /.service -->
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+
         <div class="page-scroll">
           <a class="icon-up-f icon-up-bg" href="#about"
             ><i class="fas fa-angle-up"></i
@@ -351,16 +475,26 @@ La seguridad de la información en los títulos electrónicos se refuerza median
     <script>
       const btnSection1 = document.getElementById('btnSection1');
       const btnSection2 = document.getElementById('btnSection2');
+      const btnSection3 = document.getElementById('btnSection3');
       const section1 = document.getElementById('service');
       const section2 = document.getElementById('service2');
+      const section3 = document.getElementById('service3');
 
       btnSection1.addEventListener('click', function() {
           section1.classList.remove('hidden');
           section2.classList.add('hidden');
+          section3.classList.add('hidden');
       });
 
       btnSection2.addEventListener('click', function() {
           section2.classList.remove('hidden');
+          section1.classList.add('hidden');
+          section3.classList.add('hidden');
+      });
+
+      btnSection3.addEventListener('click', function() {
+          section3.classList.remove('hidden');
+          section2.classList.add('hidden');
           section1.classList.add('hidden');
       });
   </script>
